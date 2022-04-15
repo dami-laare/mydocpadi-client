@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.splash-enter {
+    opacity: 0;
+}
+.splash-enter-active {
+opacity: 1;
+transition: opacity 1000ms;
+}
+.splash-exit {
+opacity: 1;
+}
+.splash-exit-active {
+opacity: 0;
+transition: opacity 1000ms;
+}
